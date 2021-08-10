@@ -1,0 +1,20 @@
+---
+version: "3"
+services:
+  storybook:
+    build:
+      args:
+        - "BUILD_DATE=${BUILD_DATE}"
+        - "HTTPS_PROXY=${HTTPS_PROXY}"
+        - "HTTP_PROXY=${HTTP_PROXY}"
+        - "NODE_ENV=production"
+        - "NO_PROXY=${NO_PROXY}"
+        - "NPM_REGISTRY=${NPM_REGISTRY}"
+        - "NPM_TOKEN=${NPM_TOKEN}"
+        - "VCS_REF=${VCS_REF}"
+        - "VERSION=${VERSION}"
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080"
+    command: "start"

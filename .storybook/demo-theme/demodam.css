@@ -3,7 +3,7 @@
  * Generated on Wed, 25 Aug 2021 11:33:03 GMT
  */
 
-.utrecht-theme {
+.demodam-theme {
   --utrecht-space-column-5xl: 80px;
   --utrecht-space-column-4xl: 64px;
   --utrecht-space-column-3xl: 48px;
@@ -439,13 +439,13 @@
   --denhaag-button-primary-action-disabled-color: var(--denhaag-color-white);
   --denhaag-button-primary-action-disabled-background-color: var(--denhaag-color-grey-2);
   --denhaag-button-primary-action-hover-color: white;
-  --denhaag-button-primary-action-hover-background-color: #3475bb;
+  --denhaag-button-primary-action-hover-background-color: #eca54c;
   --denhaag-button-primary-action-color: white;
-  --denhaag-button-primary-action-background-color: #24578f;
+  --denhaag-button-primary-action-background-color: #d39f1b;
   --denhaag-button-focus-border-style: var(--denhaag-focus-border-style);
   --denhaag-button-focus-border-width: var(--denhaag-focus-border-width);
   --denhaag-button-font-family: var(--denhaag-typography-sans-serif-font-family);
-  --denhaag-button-border-radius: 0px;
+  --denhaag-button-border-radius: 15px;
   --denhaag-alert-warning-close-icon-color: var(--denhaag-color-orange-5);
   --denhaag-alert-warning-action-button-hover-background-color: var(--denhaag-color-orange-4);
   --denhaag-alert-warning-action-button-background-color: var(--denhaag-color-orange-3);

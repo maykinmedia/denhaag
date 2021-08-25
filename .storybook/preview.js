@@ -1,6 +1,7 @@
 import '@gemeente-denhaag/design-tokens-proprietary/dist/theme/index.css';
 import '@gemeente-denhaag/design-tokens-components/dist/theme/index.css';
 import '@gemeente-denhaag/design-tokens-common/dist/theme/index.css';
+import './demo-theme/index.css'
 import StylesProvider from '@gemeente-denhaag/stylesprovider';
 import { addDecorator } from '@storybook/react';
 import { withThemes } from 'storybook-addon-themes/react';
@@ -30,7 +31,14 @@ export const parameters = {
   },
   themes: {
     default: 'Gemeente Den Haag',
-    list: [{ name: 'Gemeente Den Haag', class: 'denhaag-theme', color: '#227b3c' }],
+    list: [
+      { name: 'Gemeente Den Haag', class: 'denhaag-theme', color: '#227b3c' },
+      {
+        name: 'Gemeente Demodam',
+        class: 'demodam-theme',
+        color: '#1c6682',
+      },
+    ],
   },
 };
 
